@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>environment.data.gov.au</title>
+    <meta name="description" content="The environment.data.gov.au home page">
+    <meta name="author" content="Nicholas Car (nicholas.car@csiro.au)">
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/dept_coms_theme.css') }}" />
+</head>
+<body>
+
+    {% include 'layout_header.html' %}
+
+	<div id="main-content">
+        <div id="main-content-pad">
+            {% block content %}{% endblock %}
+        </div>
+	</div>
+
+    {% include 'layout_footer.html' %}
+
+</body>
+</html>

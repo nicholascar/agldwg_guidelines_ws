@@ -1,0 +1,134 @@
+@font-face {
+  font-family: 'Gafata';
+  font-style: normal;
+  font-weight: 400;
+  src:
+        local('Gafata'),
+        local('Gafata-Regular'),
+        url(http://fonts.gstatic.com/s/gafata/v5/huW5kFr5H0qwNOVvefTUkw.woff2)
+        format('woff2'),
+        url(http://fonts.gstatic.com/s/gafata/v5/1_IZAK3uvysA0G_ed1qSXA.woff)
+        format('woff');
+}
+
+#header {
+    margin: 0 auto;
+    text-align:left;
+    width: 900px;
+}
+#header-bar {
+    padding-bottom: 1em;
+    padding-top: 1em;
+    min-height: 100px;
+}
+#header-bar a {
+    text-decoration:none;
+}
+body {
+    margin: 0;
+    text-align: center;
+    background: url("http://www.communications.gov.au/__data/assets/image/0010/185239/header-bg.png?v=0.1.1") no-repeat scroll center top #0e2839;
+}
+
+#main-content {
+    margin: 0 auto;
+    text-align:left;
+    width: 900px;
+    background-color: white;
+    /*padding-bottom: 20px;*/
+    /*box-shadow: 0 0 10px -8px black inset, 0 10px 10px -8px black inset;*/
+}
+
+#main-content-pad {
+    padding: 20px;
+}
+
+#footer {
+    box-shadow: 0 0 10px -8px black inset, 0 10px 10px -8px black inset;
+    width: 900px;
+    margin: 0 auto;
+}
+
+h1 {
+    letter-spacing: -0.04em;
+
+    max-width: 15em;
+    color: #0e2839;
+
+    font-family: "Gafata",Verdana,Arial,Helvetica,sans-serif;
+    font-size: 3em;
+    /*margin-bottom: 0.5em;*/
+    margin: 0 0 0.5em 5px;
+
+}
+
+h2 {
+    font-family: "Gafata",Verdana,Arial,Helvetica,sans-serif;
+    font-size: 1.4em;
+    color: #0e2839;
+    margin: 0 0 0.66em 5px;
+}
+
+p {
+    margin: 10px 5px 5px 5px;
+}
+
+#crest-info {
+    max-width: 17.5em;
+    display: inline-block;
+    font-weight: bold;
+    padding: 0;
+    color: #ffffff;
+    font-family:	Times New Roman,serif;
+    font-size: 16px;
+}
+
+
+#logo-container {
+    float: left;
+    min-width: 400px;
+}
+
+#ausgov {
+    border-bottom: 1px solid #ffffff;
+    display: block;
+    line-height: 36px;
+    margin-bottom: 0.4em;
+    padding-top: 10px;
+}
+
+#deptname {
+    padding-top: 0.5em;
+}
+
+
+#page-footer {
+    background-color: #051a29;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+#page-footer .content {
+    padding-top: 0;
+}
+#page-footer ul {
+    margin-bottom: 0;
+    margin-top: 0;
+    list-style-type: none;
+    text-align: center;
+}
+#page-footer ul li {
+    display: inline;
+}
+#page-footer ul li a {
+    color: #00acd4;
+    /*display: inline-block;*/
+    margin: 0 50px 0 50px;
+    text-align: center;
+    text-decoration: none;
+    width: 50%;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+#page-footer ul li a:hover, #page-footer ul li a:focus {
+    color: #00acd4;
+    text-decoration: underline;
+}
