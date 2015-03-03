@@ -69,8 +69,13 @@ h2 {
     margin: 0 0 0.66em 5px;
 }
 
-p {
+h4, p, pre {
     margin: 10px 5px 5px 5px;
+}
+
+pre {
+    border: solid 1px black;
+    padding: 10px;
 }
 
 #crest-info {
